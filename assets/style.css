@@ -29,10 +29,9 @@ body {
   line-height: 1.65;
   font-size: 17px;
 }
-html[lang="ar"] body, [lang="fa"] {
+html[lang="ar"] body {
   font-family: "Segoe UI", Tahoma, "Geeza Pro", "Noto Sans Arabic", Arial, sans-serif;
 }
-.legal section + section { border-top: 1px solid var(--border); margin-top: 48px; padding-top: 32px; }
 a { color: var(--brand); text-decoration: none; }
 a:hover { text-decoration: underline; }
 .wrap { max-width: var(--max); margin: 0 auto; padding: 0 20px; }
