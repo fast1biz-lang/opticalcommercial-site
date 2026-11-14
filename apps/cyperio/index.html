@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cyperio VPN – Optical Commercial International LLC</title>
+  <meta name="description" content="Cyperio is a fast and simple VPN app for Cyperio subscribers: one tap to connect, encrypted traffic, servers in several countries.">
+  <link rel="icon" href="/assets/cyperio-icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/style.css">
+  <style>
+    .app-hero { background: linear-gradient(135deg, #0F172A 0%, #0F766E 100%); color: #fff; }
+    .app-hero .wrap { display: flex; align-items: center; gap: 40px; padding-top: 64px; padding-bottom: 64px; flex-wrap: wrap; }
+    .app-hero img { width: 140px; height: 140px; border-radius: 30px; box-shadow: 0 12px 32px rgba(0,0,0,.3); }
+    .app-hero h1 { font-size: clamp(34px, 5vw, 52px); margin: 0 0 8px; }
+    .app-hero p { font-size: 19px; color: rgba(255,255,255,.85); max-width: 600px; margin: 0; }
+    .app-hero .text { flex: 1; min-width: 260px; }
+    .steps { counter-reset: s; list-style: none; padding: 0; display: grid; gap: 14px; max-width: 640px; }
+    .steps li { counter-increment: s; display: flex; gap: 14px; align-items: baseline; }
+    .steps li::before { content: counter(s); flex: none; width: 30px; height: 30px; border-radius: 50%; background: var(--brand); color: #fff; display: grid; place-items: center; font-weight: 700; font-size: 15px; }
+    .features { columns: 2 240px; padding-left: 20px; }
+    .features li { margin-bottom: 8px; break-inside: avoid; }
+    .note { color: var(--muted); font-size: 15px; max-width: 760px; }
+  </style>
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="/"><img src="/assets/logo.svg" alt=""><span>Optical Commercial<br>International LLC</span></a>
+      <nav class="main">
+        <a href="/">Home</a>
+        <a href="#use">When to use it</a>
+        <a href="/apps/cyperio/privacy.html">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="app-hero">
+      <div class="wrap">
+        <img src="/assets/cyperio-icon.svg" alt="Cyperio app icon">
+        <div class="text">
+          <h1>Cyperio</h1>
+          <p>A fast and simple VPN app for Cyperio subscribers. Add your subscription link once, tap Connect, and your internet traffic travels through an encrypted connection to Cyperio servers in several countries.</p>
+        </div>
+      </div>
+    </div>
+
+    <section id="use">
+      <div class="wrap">
+        <h2>When is Cyperio useful?</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>On public Wi-Fi</h3>
+            <p>Networks in cafes, hotels and airports are shared with strangers. Cyperio encrypts the traffic between your phone and our servers, so others on the same network can't read it.</p>
+          </div>
+          <div class="card">
+            <h3>While traveling</h3>
+            <p>Keep using the internet the way you do at home, wherever you are, with servers in several countries to choose from.</p>
+          </div>
+          <div class="card">
+            <h3>When your network is limited</h3>
+            <p>Some networks slow down or block certain sites and services. Connecting through Cyperio can help you reach them, depending on your network.</p>
+          </div>
+          <div class="card">
+            <h3>For everyday privacy</h3>
+            <p>Websites and apps you visit see a Cyperio server's IP address instead of yours.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="wrap">
+        <h2>Features</h2>
+        <ul class="features">
+          <li>One tap to connect and disconnect</li>
+          <li>Add your subscription by link or QR code</li>
+          <li>Server list updates automatically</li>
+          <li>Choose which apps use the VPN</li>
+          <li>English, Persian and Arabic interface</li>
+          <li>No ads</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2>How to start</h2>
+        <ol class="steps">
+          <li>Install Cyperio on your Android phone.</li>
+          <li>Add the subscription link you received from Cyperio.</li>
+          <li>Tap Connect.</li>
+        </ol>
+        <p class="note">A Cyperio subscription is required. Please use Cyperio in line with the laws of your country and the terms of the services you use. Cyperio is not offered in the GCC countries.</p>
+        <p class="note">
+          <a href="/apps/cyperio/privacy.html">Privacy policy</a> ·
+          <a href="https://github.com/fast1biz-lang/cyperio-android-source">Source code (GPL-3.0)</a> ·
+          Based on the open-source v2rayNG project.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site">
+    <div class="wrap">
+      <span>© 2026 Optical Commercial International LLC</span>
+      <nav>
+        <a href="/apps/cyperio/privacy.html">Cyperio Privacy</a>
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms of Use</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
