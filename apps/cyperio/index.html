@@ -10,9 +10,11 @@
   <style>
     .app-hero { background: linear-gradient(135deg, #0F172A 0%, #0F766E 100%); color: #fff; }
     .app-hero .wrap { display: flex; align-items: center; gap: 40px; padding-top: 64px; padding-bottom: 64px; flex-wrap: wrap; }
-    .app-hero img { width: 140px; height: 140px; border-radius: 30px; box-shadow: 0 12px 32px rgba(0,0,0,.3); }
+    .app-hero .app-icon { width: 140px; height: 140px; border-radius: 30px; box-shadow: 0 12px 32px rgba(0,0,0,.3); }
     .app-hero h1 { font-size: clamp(34px, 5vw, 52px); margin: 0 0 8px; }
     .app-hero p { font-size: 19px; color: rgba(255,255,255,.85); max-width: 600px; margin: 0; }
+    .store-badge { display: inline-block; margin-top: 22px; }
+    .store-badge img { height: 60px; width: auto; display: block; }
     .app-hero .text { flex: 1; min-width: 260px; }
     .steps { counter-reset: s; list-style: none; padding: 0; display: grid; gap: 14px; max-width: 640px; }
     .steps li { counter-increment: s; display: flex; gap: 14px; align-items: baseline; }
@@ -37,10 +39,11 @@
   <main>
     <div class="app-hero">
       <div class="wrap">
-        <img src="/assets/cyperio-icon.svg" alt="Cyperio app icon">
+        <img class="app-icon" src="/assets/cyperio-icon.svg" alt="Cyperio app icon">
         <div class="text">
           <h1>Cyperio</h1>
           <p>A fast and simple VPN app for Cyperio subscribers. Add your subscription link once, tap Connect, and your internet traffic travels through an encrypted connection to Cyperio servers in several countries.</p>
+          <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.cyperio.app" rel="noopener"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" width="232" height="90"></a>
         </div>
       </div>
     </div>
@@ -87,7 +90,7 @@
       <div class="wrap">
         <h2>How to start</h2>
         <ol class="steps">
-          <li>Install Cyperio on your Android phone.</li>
+          <li>Install Cyperio from <a href="https://play.google.com/store/apps/details?id=com.cyperio.app">Google Play</a> on your Android phone.</li>
           <li>Add the subscription link you received from Cyperio.</li>
           <li>Tap Connect.</li>
         </ol>
